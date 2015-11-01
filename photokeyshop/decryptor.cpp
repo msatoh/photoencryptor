@@ -52,12 +52,8 @@ bool Decryption(char *file_in_name, char *key_in_file){
 			}
 			//MessageBox(NULL, _T("登録された色が見つかりませんでした。鍵ファイルが正しくないかもしれません..."), NULL, MB_OK);
 			//return false;
+			//↑なぜかこれをコメントアウトする動く、消してもよいわリア
 
-		//searched_out:
-		//	/*
-		//	あほ
-		//	あほ
-		//	*/;
 		}
 	}
 
